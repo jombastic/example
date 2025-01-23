@@ -90,7 +90,7 @@
         </div>
 
         <div class="mt-6 flex items-center justify-end gap-x-6">
-            <a href="/jobs/{{ $job->id }}" class="text-sm/6 font-semibold text-gray-900">
+            <a href="/jobs" class="text-sm/6 font-semibold text-gray-900">
                 Cancel
             </a>
             <button
