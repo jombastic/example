@@ -3,6 +3,11 @@
 use App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
+Route::get('test', function() {
+
+    return 'Done';
+});
+
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
 
