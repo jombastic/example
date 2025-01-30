@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('job_listings', function (Blueprint $table) {
             $table->id();
-            // foreign id called employer_id
             // $table->unsignedBigInteger('employer_id');
             $table->foreignIdFor(\App\Models\Employer::class);
             $table->string('title');
